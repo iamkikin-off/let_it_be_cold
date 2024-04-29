@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Let it be Cold 🧊</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Let it be Cold 🧊</h1>
+    <p>Make any song sound cold 🥶</p>
+
+	<p>Tool by - IamKikin, Coldifier by - luizzeroxis</p>
+
+    <label><input class="fromURL" type="radio" name="from" checked> Load audio from a URL</label>
+    <div><input class="url" type="text" placeholder="URL"></div>
+
+    <label><input class="fromFile" type="radio" name="from"> Load audio from a file</label>
+    <div><input class="file" type="file"></div>
+
+    <div>
+      <button class="load">Load</button>
+      <button class="play">Play</button>
+      <button class="stop">Stop</button>
+      <button class="download">Download</button>
+    </div>
+
+    <div class="info"></div>
+  </div>
+
+  <script src="audiobuffer-to-wav.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

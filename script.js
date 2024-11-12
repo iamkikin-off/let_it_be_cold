@@ -4,7 +4,7 @@ let initialPitch = 0.5;
 
 let enableRandomPitchChange = true;
 let minPitch = 0.5;
-let maxPitch = 0.7;
+let maxPitch = 3;
 
 let timeBetweenSteps = 1/30; // seconds
 let timeUntilFirstChange = 160/30; // seconds
